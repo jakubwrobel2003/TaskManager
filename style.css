@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  margin: 10px;
+}
+main {
+  display: none;
+  grid-template-columns: 20fr 80fr;
+}
+.buttons {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+.task-show-place {
+  background-color: green;
+}
